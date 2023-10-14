@@ -2,16 +2,19 @@ Reproduce https://github.com/npgsql/efcore.pg/issues/2834
 
 Change `connectionString` for you. Run `ConsoleApp1`.
 
+### Run
 ```bash
 dotnet run  --project .\ConsoleApp1\ConsoleApp1.csproj
 ```
 
+### Log
 ```log
 Unhandled exception. System.TypeLoadException: Could not load type 'System.Data.Common.DbDataSource' from assembly 'Npgsql, Version=7.0.6.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7'.
    at Test.Run(String connectionString)
    at Program.<Main>$(String[] args) in D:\demo\Issue2834\ConsoleApp1\Program.cs:line 4
 ```
 
+### dotnet --info
 ```bash
 .NET SDK:
  Version:   7.0.402
