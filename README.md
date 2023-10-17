@@ -65,3 +65,6 @@ Download .NET:
   https://aka.ms/dotnet/download
 
 ```
+
+## Run on Windows 11 Sandbox (Only installed dotnet-sdk 7.0.402 and Git-2.42.0.2-64-bit)
+![screenshot](screenshot.png)
